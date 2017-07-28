@@ -25,5 +25,8 @@
     <string name="btn_minus">-</string>
     <string name="btn_plus">+</string>
     <string name="edit_text_name">Nome</string>
+    <string name="btn_confirm">Concluir</string>
+    <string name="text_view_done">Concluido</string>
+    <string name="btn_mainmenu">Novo Pedido</string>
 
 </resources>

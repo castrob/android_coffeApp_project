@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--TODO
-2 Text Views
-1 Button
-Style them
--->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -16,6 +11,7 @@ Style them
     tools:context="com.example.android.justjava.MainActivity">
 
     <EditText
+        android:id="@+id/name_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorAccent"
@@ -270,7 +266,6 @@ Style them
         android:layout_width="wrap_content"
         android:onClick="submitOrder"
         android:backgroundTint="@color/colorPrimary"
-        android:layout_marginTop="8sp"
-        />
+        android:layout_marginTop="8sp" />
 
 </LinearLayout>

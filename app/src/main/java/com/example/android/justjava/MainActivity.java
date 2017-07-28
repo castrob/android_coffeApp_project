@@ -6,12 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String EXTRA_NAME = "com.example.android.justjava.NAME";
+    public static final String EXTRA_EXPRESSO = "com.example.android.justjava.EXPRESSO";
+    public static final String EXTRA_BLACKCOFFE = "com.example.android.justjava.BLACKCOFFE";
+    public static final String EXTRA_CAPUCCINO = "com.example.android.justjava.CAPUCCINO";
+    public static final String EXTRA_MILKCOFFE = "com.example.android.justjava.MILKCOFFE";
+    public static final String EXTRA_TOTAL = "com.example.android.justjava.TOTAL";
 
-    public static final String EXTRA_MESSAGE = "com.example.android.justjava.MESSAGE";
     private int expressoAmountOfCoffe;
     private int blackCoffeAmountOfCoffe;
     private int capuccinoAmountOfCoffe;
@@ -175,10 +181,27 @@ public class MainActivity extends AppCompatActivity {
      */
 
     public void submitOrder (View view){
-        Intent intent = new Intent(this, OrderResume.class);
-        String message = "Hello World";
-        intent.putExtra(EXTRA_MESSAGE, message);
-        startActivity(intent);
+        EditText nameEditText = (EditText) findViewById(R.id.name_edit_text);
+        String name =  nameEditText.getText().toString();
+
+        if(name.trim().equals("")){
+            nameEditText.setError("É Necessario colocar um nome!");
+        }else{
+            Intent intent = new Intent(this, OrderResume.class);
+            String expresso = "Expresso: " + expressoAmountOfCoffe + " unidades";
+            String blackcoffe = "Black Coffe: " + blackCoffeAmountOfCoffe + " unidades";
+            String capuccino = "Capuccino: " + capuccinoAmountOfCoffe + " unidades";
+            String milkcoffe = "Café com leite: " + milkCoffeAmountOfCoffe + " unidades";
+            String total = "R$ " + totalPrice + "0";
+            intent.putExtra(EXTRA_NAME, name);
+            intent.putExtra(EXTRA_EXPRESSO, expresso);
+            intent.putExtra(EXTRA_BLACKCOFFE, blackcoffe);
+            intent.putExtra(EXTRA_CAPUCCINO, capuccino);
+            intent.putExtra(EXTRA_MILKCOFFE, milkcoffe);
+            intent.putExtra(EXTRA_TOTAL, total);
+            startActivity(intent);
+        }
+
     }
 
     /**

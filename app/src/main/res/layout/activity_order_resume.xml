@@ -14,21 +14,77 @@
         android:layout_height="wrap_content"
         android:text="@string/text_view_resumeorder"
         android:textSize="24sp"
+        android:textAlignment="center"
         android:textColor="@color/lbl_white"/>
+
 
     <TextView
-        android:id="@+id/value"
+        android:id="@+id/expresso_order_text_view"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text_view_resumeorder"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:text="Expresso: 6 unidades"/>
+
+    <TextView
+        android:id="@+id/blackcoffe_order_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:text="Black Coffe: 6 unidades"/>
+
+    <TextView
+        android:id="@+id/capuccino_order_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:text="Capuccino: 6 unidades"/>
+
+    <TextView
+        android:id="@+id/milkcoffe_order_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:text="Café com leite: 6 unidades"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lbl_white"
+        android:textAlignment="center"
         android:textSize="24sp"
-        android:textColor="@color/lbl_white"/>
+        android:text="Valor Total"/>
+
+    <TextView
+        android:id="@+id/total_order_text_view"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="R$ 18.50"/>
 
     <Button
+        android:layout_marginTop="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Voltar"
-        android:onClick="voltarButton"
-        />
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/btn_confirm"
+        android:layout_gravity="center"
+        android:textColor="@color/text_color"
+        android:onClick="confirmButton" />
 
 </LinearLayout>
