@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO
+2 Text Views
+1 Button
+Style them
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.android.justjava.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:hint="@string/edit_text_name"
+        android:textColorHint="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:text="@string/text_view_tastes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lbl_white"
+            android:textSize="24sp"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:text="@string/text_view_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lbl_white"
+            android:layout_marginLeft="40dp"
+            android:textSize="24sp"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/expresso_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:buttonTint="@color/text_color"
+            android:text="@string/ckb_expressoTaste"
+            android:textSize="16sp"
+            android:onClick="expressoCoffe"
+            android:paddingLeft="16dp"/>
+
+        <Button
+            android:id="@+id/btn_amount_plus_expresso"
+            android:text="@string/btn_plus"
+            android:textColor="@color/text_color"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="59dp"
+            android:onClick="expressoCoffe"
+            android:backgroundTint="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/quantity_expresso_text_view"
+            android:text="@string/text_view_value"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btn_amount_minus_expresso"
+            android:text="@string/btn_minus"
+            android:textColor="@color/text_color"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="expressoCoffe"
+            android:backgroundTint="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/blackcoffe_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ckb_blackTaste"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:buttonTint="@color/text_color"
+            android:onClick="blackCoffe"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="16dp"/>
+
+        <Button
+            android:id="@+id/btn_amount_plus_blackcoffe"
+            android:text="@string/btn_plus"
+            android:textColor="@color/text_color"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="34dp"
+            android:onClick="blackCoffe"
+            android:backgroundTint="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/quantity_blackcoffe_text_view"
+            android:text="@string/text_view_value"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="24sp"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_amount_minus_blackcoffe"
+            android:text="@string/btn_minus"
+            android:textColor="@color/text_color"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="blackCoffe"
+            android:backgroundTint="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/capuccino_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:buttonTint="@color/text_color"
+            android:text="@string/ckb_capuccinoTaste"
+            android:textSize="16sp"
+            android:paddingLeft="16dp"
+            android:onClick="capuccinoCoffe"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/btn_amount_plus_capuccino"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="49dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="capuccinoCoffe"
+            android:text="@string/btn_plus"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:id="@+id/quantity_capuccino_text_view"
+            android:text="@string/text_view_value"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_amount_minus_capuccino"
+            android:text="@string/btn_minus"
+            android:textColor="@color/text_color"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="capuccinoCoffe"
+            android:backgroundTint="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/milkcoffe_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ckb_milkCoffe"
+            android:textSize="16sp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/text_color"
+            android:buttonTint="@color/text_color"
+            android:onClick="milkCoffe"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/btn_amount_plus_milkcoffe"
+            android:text="@string/btn_plus"
+            android:textColor="@color/text_color"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="18dp"
+            android:onClick="milkCoffe"
+            android:backgroundTint="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/quantity_milkcoffe_text_view"
+            android:text="@string/text_view_value"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_amount_minus_milkcoffe"
+            android:text="@string/btn_minus"
+            android:textColor="@color/text_color"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="milkCoffe"
+            android:backgroundTint="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_pricing"
+        android:textAllCaps="true"
+        android:textSize="22sp"
+        android:textColor="@color/lbl_white"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/cost_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_cost"
+        android:textColor="@color/text_color"
+        android:textSize="24sp"
+        android:layout_marginBottom="8sp"/>
+
+
+    <Button
+        android:text="@string/btn_order"
+        android:textColor="@color/text_color"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="submitOrder"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="8sp"
+        />
+
+</LinearLayout>

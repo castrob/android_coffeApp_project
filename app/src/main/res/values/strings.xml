@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Jout Café</string>
+
+
+    <!--CheckBox Tastes-->
+    <string name="ckb_expressoTaste">Expresso</string>
+    <string name="ckb_blackTaste">Black Coffee</string>
+    <string name="ckb_capuccinoTaste">Capuccino</string>
+    <string name="ckb_milkCoffe">Café com Leite</string>
+
+    <!--TextView text-->
+    <string name="text_view_quantity">Quantidade</string>
+    <string name="text_view_value">0</string>
+    <string name="text_view_pricing">Valor</string>
+    <string name="text_view_cost">R$ 0.00</string>
+    <string name="text_view_tastes">Sabores</string>
+    <string name="text_view_quantityRequested">Quantidade: 0</string>
+    <string name="text_view_thankYouMessage">Obrigado e Volte Sempre!</string>
+
+    <!--activity 2-->
+    <string name="text_view_resumeorder">Resumo do Pedido</string>
+
+    <!--buttons text-->
+    <string name="btn_order">Pedir</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_plus">+</string>
+    <string name="edit_text_name">Nome</string>
+
+</resources>

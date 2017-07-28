@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/9f9641fa5ea0826cb99aa82b4ca889a92afd69d2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ffb9b8c89efd74b11b38f24ed2fde206ff11ad8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/0372301a6521073c2742d7cf47afb354df3cad02/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec39b71c1d7f23b1f8948e3a9bcb1c2e257c43db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_75b6b8a189b3567efbfdf4785ea07d0af88a5806/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/f9aa4d65646a1ee3139d97b46d90ad0714052ebc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b98c998d385252d1f5cfa794522e5d4d038a9ac2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/05092c680da1481dac86a548ee0ba102bfc92833/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a931bd06e1fe633697a9a779d82aa78c39dca903/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/8e3edbfd4eec774be61bfce2234cdfd090b33346/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f45880f9d6c6cff0ac559a5f425cce6fc776d051/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/591d02490f2be5d57c484cd9645f3d99a6f9899e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a4a09125bce370586b6b8f121810239a70aacc4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_d63ebb8b2ffebdb2bbe84611b4a1cf4e37727195/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/43f8ab178d5275f1b870b3dcc6b487541e319504/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_71811517b497b286ed42a4015b309507ee0071c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/0faeda86d149c6ea1750f4a3728264c1a178309b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94c2e2bf5ea56816d6893488bc8dbfade37382b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b5fbcf38030e320094fd7e97ccd6352dc748ccd1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be7d999157896d9df9afdc862808f639fcc37fb">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0b03d3b225476ebfe6d3acf9420ca6d14296b40c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/f4d89e20c9caaa96c3fd9bbd77267a8699887f38/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d3936e1636f7a17b91ff9a094e1e5272e9c79b08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/.android/build-cache/cd2cf5869676b9522cbc2aec3a5c8bc4247e03b2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/castro/Documents/Android-LocalProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19ecb46a3355d0bbcab237cb928e1d06926e91d3/classes.dex" />
+    </item>
+
+</items>
